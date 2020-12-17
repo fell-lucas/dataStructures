@@ -5,7 +5,8 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
-public class VetorOrdenado implements Map<Integer, Estudante> {
+public class VetorOrdenado 
+implements Map<Integer, Estudante> {
   private Integer[] keys;
   private Estudante[] values;
   private int nElements;
